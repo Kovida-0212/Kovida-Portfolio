@@ -47,9 +47,17 @@ export default function About() {
             <div className="timeline-item">
               <div className="timeline-icon"><Award size={20}/></div>
               <div>
-                <span className="timeline-date">2025</span>
+                <span className="timeline-date">Aug 2025</span>
                 <h3>Oracle Cloud Infrastructure AI Foundations Associate</h3>
-                <p>Foundational AI and cloud concepts with Oracle Cloud Infrastructure.</p>
+                <p>Credential covering foundational AI and cloud concepts with Oracle Cloud Infrastructure.</p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-icon"><Award size={20}/></div>
+              <div>
+                <span className="timeline-date">Jun 2025</span>
+                <h3>30-Days Power BI Micro Course</h3>
+                <p>Focused on practical Power BI and data-analytics skills.</p>
               </div>
             </div>
           </div>
@@ -75,10 +83,9 @@ export default function About() {
         <div className="container narrow">
           <SectionTitle eyebrow="Currently learning" title="Moving from ML projects toward production AI." />
           <p className="body-large">
-            My next focus areas include Generative AI fundamentals, LLM applications,
-            retrieval-augmented generation, agents and deployment. The goal is to build
-            these skills on top of a solid ML/DL foundation rather than presenting myself
-            as an expert before I have the depth to support that claim.
+            I’m currently strengthening my Generative AI fundamentals, including LLM applications,
+            retrieval-augmented generation, agents and deployment. I’m approaching these areas as
+            an active learning path built on my existing ML/DL foundation.
           </p>
         </div>
       </section>

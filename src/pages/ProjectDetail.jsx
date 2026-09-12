@@ -29,7 +29,7 @@ export default function ProjectDetail() {
           <p>{project.description}</p>
           <div className="detail-actions">
             {project.github && <a className="btn btn-primary" href={project.github} target="_blank" rel="noreferrer"><Github size={17}/> View on GitHub</a>}
-            {project.report && project.github && <a className="btn btn-secondary" href={project.report} target="_blank" rel="noreferrer"><ExternalLink size={17}/> Repository files</a>}
+            {project.report && project.github && project.report !== project.github && <a className="btn btn-secondary" href={project.report} target="_blank" rel="noreferrer"><ExternalLink size={17}/> Project report</a>}
           </div>
         </div>
       </section>

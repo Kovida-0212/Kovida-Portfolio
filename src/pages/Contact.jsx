@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone, ArrowUpRight } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, ArrowUpRight, Award } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -27,6 +27,9 @@ export default function Contact() {
           </a>
           <a className="contact-card" href="https://github.com/Kovida-0212" target="_blank" rel="noreferrer">
             <Github size={22}/><span>GitHub</span><strong>github.com/Kovida-0212</strong><ArrowUpRight size={18}/>
+          </a>
+          <a className="contact-card resume-card" href="/Kovida-Munnangi-Resume.pdf" target="_blank" rel="noreferrer">
+            <Award size={22}/><span>Resume</span><strong>View my resume</strong><ArrowUpRight size={18}/>
           </a>
         </div>
       </section>

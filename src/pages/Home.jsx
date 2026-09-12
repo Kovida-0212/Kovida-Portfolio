@@ -18,12 +18,13 @@ export default function Home() {
             <p className="hero-kicker">AI / ML DEVELOPER</p>
             <h1>Building intelligent systems from <span>data to deployment.</span></h1>
             <p className="hero-text">
-              I’m Kovida Munnangi, a Computer Science graduate focused on machine learning,
-              deep learning, NLP, computer vision and practical AI systems.
+              I’m Kovida Munnangi, an AI/ML-focused Computer Science graduate building practical
+              solutions across machine learning, deep learning, NLP and computer vision.
             </p>
             <div className="hero-actions">
               <Link className="btn btn-primary" to="/projects">Explore my work <ArrowUpRight size={18} /></Link>
               <Link className="btn btn-secondary" to="/contact">Let’s connect</Link>
+              <a className="btn btn-ghost" href="/Kovida-Munnangi-Resume.pdf" target="_blank" rel="noreferrer">View resume</a>
             </div>
             <div className="hero-meta">
               <span><Code2 size={16}/> Python</span>

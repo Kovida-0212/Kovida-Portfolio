@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} Kovida Munnangi</span>
-        <span>Built with React + Vite</span>
+        <a href="/Kovida-Munnangi-Resume.pdf" target="_blank" rel="noreferrer">View resume</a>
       </div>
     </footer>
   );

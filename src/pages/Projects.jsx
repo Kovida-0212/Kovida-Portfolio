@@ -12,7 +12,7 @@ export default function Projects() {
           <span className="eyebrow">Projects</span>
           <h1>A portfolio of experiments, models and systems.</h1>
           <p>
-            Explore the problem, approach, technologies and reported results behind each project.
+            Explore the problem, approach, technologies and reported results behind my academic, internship and personal projects.
           </p>
         </div>
       </section>

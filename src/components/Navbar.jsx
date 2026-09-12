@@ -36,6 +36,14 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
+            className="nav-resume"
+            href="/Kovida-Munnangi-Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
+          <a
             className="nav-github"
             href="https://github.com/Kovida-0212"
             target="_blank"
