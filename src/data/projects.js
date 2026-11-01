@@ -1,3 +1,4 @@
+
 export const projects = [
   {
     slug: "flood-person-detection",
@@ -32,6 +33,7 @@ export const projects = [
       "https://github.com/Kovida-0212/Person-Detection-Through-Drone-Technology",
     featured: true
   },
+
   {
     slug: "twitter-hate-speech",
     title: "Multilingual Twitter Hate Speech Detection",
@@ -60,6 +62,7 @@ export const projects = [
     report: "https://github.com/Kovida-0212/Twitter-Hate-Speech-Detection",
     featured: true
   },
+
   {
     slug: "parkinsons",
     title: "Early Detection of Parkinson’s Disease",
@@ -91,6 +94,7 @@ export const projects = [
     report: "https://github.com/Kovida-0212/Early_Detection_of_Parkison_Disease",
     featured: true
   },
+
   {
     slug: "chat-server",
     title: "Real-Time Multi-Client Chat Server",
@@ -114,6 +118,7 @@ export const projects = [
     report: "https://github.com/Kovida-0212/Chat_Server_System",
     featured: false
   },
+
   {
     slug: "employee-burnout",
     title: "Employee Burnout Prediction",
@@ -140,6 +145,7 @@ export const projects = [
     report: null,
     featured: false
   },
+
   {
     slug: "healthcare-ai",
     title: "AI-Enabled Diagnostic Frameworks in Healthcare",
@@ -168,5 +174,40 @@ export const projects = [
     github: null,
     report: null,
     featured: false
+  },
+
+  {
+    slug: "job-application-tracker",
+    title: "Job Application Tracker",
+    shortTitle: "JobTrack",
+    category: "Full-Stack Web Development",
+    description:
+      "A Flask and SQLite web application for managing job applications, tracking hiring stages and organizing interview details.",
+    overview:
+      "JobTrack is a web-based application that helps users organize their job search. It provides a centralized dashboard to record applications, monitor recruitment progress and manage interview details.",
+    challenge:
+      "Managing multiple job applications can become difficult without a centralized tracking system. This project addresses that problem through an organized dashboard, searchable records and application status management.",
+    stack: [
+      "Python",
+      "Flask",
+      "SQLite",
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5",
+      "JavaScript",
+      "Jinja2"
+    ],
+    highlights: [
+      "Implemented CRUD (Create, Read, Update and Delete) operations for job applications.",
+      "Created a dashboard with total applications and status-wise statistics.",
+      "Added search functionality for company names, job roles and notes.",
+      "Implemented status filtering for Applied, Assessment, Interview, Selected and Rejected.",
+      "Added interview date, resume version and notes tracking.",
+      "Integrated SQLite for persistent application data storage."
+    ],
+    github:
+      "https://github.com/Kovida-0212/Job-Application-Tracker",
+    report: null,
+    featured: true
   }
 ];

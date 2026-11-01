@@ -33,7 +33,7 @@ export default function About() {
               <div>
                 <span className="timeline-date">2022 — 2026</span>
                 <h3>B.Sc. (Hons.) Computer Science with Research</h3>
-                <p>SRM University-AP · CGPA 8.70</p>
+                <p>SRM University-AP · CGPA 8.73</p>
               </div>
             </div>
             <div className="timeline-item">
